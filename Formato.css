@@ -5,7 +5,7 @@ body{
 /*navbar*/
 
 .Home{
-    margin-left: 20%;
+    margin-left: 40%;
     margin-right: 20%;
 }
 .Productos{
@@ -13,11 +13,11 @@ body{
     margin-right: 20%;
 }
 .Locales{
-    margin-left: 20%;
+    margin-left: -80%;
     margin-right: 20%;
 }
 .Contactos{
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 20%;
 }
 

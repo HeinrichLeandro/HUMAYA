@@ -26,7 +26,6 @@ body{
 .contenedor-header{
     background-image: url(IMAGENES/imagenCentral.png);
     background-size: cover;
-    width: 100%;
     background-repeat: no-repeat;    
 }
 
@@ -49,3 +48,46 @@ body{
     color:black;
 }
 
+/*main*/
+
+.mainProduc{
+    color: rgb(172, 103, 46);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.nombreProduc{
+    color: rgb(172, 103, 46);
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.descriProduc{
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.presenProduc{
+    color: rgb(172, 103, 46);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.botonProduc{
+    padding-bottom: 6%;
+}
+
+.btn-p{
+    color: rgb(172, 103, 46)!important;
+    border-color: rgb(172, 103, 46)!important;
+}
+
+.btn-p:hover{
+    color: black!important;
+    background-color: rgb(172, 103, 46)!important;
+}

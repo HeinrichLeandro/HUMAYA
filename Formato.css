@@ -103,3 +103,16 @@ body{
 .contacto1{
     background-color: antiquewhite;
 }
+
+.contacto2{
+    color: rgb(172, 103, 46);
+    padding-top: 7%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contacto3{
+    padding-left: 5%;
+    padding-right: 5%;
+}

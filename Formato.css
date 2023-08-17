@@ -3,7 +3,7 @@ body{
 }
 
 /*navbar*/
-
+@media only screen and (min-width: 992px){
 .Home{
     margin-left: 40%;
     margin-right: 20%;
@@ -20,7 +20,7 @@ body{
     margin-left: 10%;
     margin-right: 20%;
 }
-
+}
 /*header*/
 
 .contenedor-header{
@@ -57,7 +57,7 @@ body{
 /*main*/
 
 .mainProduc{
-    color: rgb(172, 103, 46);
+    color: antiquewhite;
     padding-top: 4%;
     padding-bottom: 4%;
 }
@@ -96,4 +96,10 @@ body{
 .btn-p:hover{
     color: black!important;
     background-color: rgb(172, 103, 46)!important;
+}
+
+/*contacto*/
+
+.contacto1{
+    background-color: antiquewhite;
 }

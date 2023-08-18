@@ -163,10 +163,10 @@
         </div>
         <div class="container text-center recetas1">
             <h1 class="recetas2">Recetas</h1>
-            <div class="row">
+            <div class="row row-cols-3 recetas3">
                 <div class="col">
-                    <div class="card text-bg-dark">
-                        <img src="IMAGENES/conitos.jpg" class="card-img-top" height="30%" alt="...">
+                    <div class="card h-75 text-bg-dark carta1">
+                        <img src="IMAGENES/conitos.jpg" class="card-img-top" height="55%" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Conitos</h5>
                         <p class="card-text">Una deliciosa opción para acompañar las meriendas, ese antojo de media noche o compartir con amigos.</p>
@@ -175,8 +175,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-bg-dark">
-                        <img src="IMAGENES/pepas.jpg" class="card-img-top" height="30%" alt="...">
+                    <div class="card h-75 text-bg-dark carta1">
+                        <img src="IMAGENES/pepas.jpg" class="card-img-top" height="55%" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Pepas</h5>
                         <p class="card-text">Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del té.</p>
@@ -185,8 +185,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-bg-dark">
-                        <img src="IMAGENES/torta.jpg" class="card-img-top" height="30%" alt="...">
+                    <div class="card h-75 text-bg-dark carta1">
+                        <img src="IMAGENES/torta.jpg" class="card-img-top" height="55%" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Torta Nutt</h5>
                         <p class="card-text">La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt.</p>
@@ -195,6 +195,44 @@
                     </div>
                 </div>
             </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="IMAGENES/conitos.jpg" class="d-block w-100" height="300px" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="recetas4"><strong>Conitos</strong></h5>
+                      <p class="recetas4"><strong>Una deliciosa opción para acompañar las meriendas, ese antojo de media noche o compartir con amigos.</strong></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="IMAGENES/pepas.jpg" class="d-block w-100" height="300px" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="recetas4"><strong>Pepas</strong></h5>
+                      <p class="recetas4"><strong>Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del té.</strong></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="IMAGENES/torta.jpg" class="d-block w-100" height="300px" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="recetas4"><strong>Torta Nutt</strong></h5>
+                      <p class="recetas4"><strong>La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt.</strong></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             
         </div>
 

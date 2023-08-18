@@ -134,3 +134,22 @@ body{
     padding-top: 4%;
     padding-bottom: 4%;
 }
+
+.recetas4{
+    color:black;
+}
+
+@media only screen and (max-width: 992px){
+.recetas3{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 992px){
+.carta1{
+    padding-bottom: 10%;
+}
+.carousel{
+    display: none;
+}
+}

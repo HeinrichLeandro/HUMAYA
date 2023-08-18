@@ -122,3 +122,15 @@ body{
 .form-1{
     color: rgb(172, 103, 46);
 }
+
+/*recetas*/
+
+.recetas1{
+    background-color: grey;
+}
+
+.recetas2{
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}

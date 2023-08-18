@@ -60,6 +60,8 @@ body{
     color: antiquewhite;
     padding-top: 4%;
     padding-bottom: 4%;
+    border-style: solid;
+    border-color: rgb(172, 103, 46);
 }
 
 .nombreProduc{
@@ -115,4 +117,8 @@ body{
 .contacto3{
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.form-1{
+    color: rgb(172, 103, 46);
 }

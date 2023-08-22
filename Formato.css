@@ -153,3 +153,25 @@ body{
     display: none;
 }
 }
+
+/*Footer*/
+
+.footerdiv{
+    background-color: black;
+}
+
+.fooMenu{
+    padding-top: -15%;
+    padding-bottom: 10%;
+    color: rgb(172, 103, 46)!important;
+}
+
+.fooUbi{
+    margin-top: 15%;
+    color: rgb(172, 103, 46)!important;
+}
+
+.foofuente{
+    color: white;
+}
+

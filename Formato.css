@@ -175,3 +175,30 @@ body{
     color: white;
 }
 
+.fooRedes{
+    padding-top: 10%;
+    color:rgb(172, 103, 46)!important;
+}
+
+.fooimg{
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 992px){
+    .foodisplay{
+        display: none;
+    }
+    .fooUbi{
+        margin-top: 5%;
+        color:rgb(172, 103, 46)!important;
+    }
+    .foofuente{
+        padding-bottom: 10%;
+    }
+    }
+    
+    @media only screen and (min-width: 992px){
+    .foodisplay2{
+        display: none;
+    }
+    }
